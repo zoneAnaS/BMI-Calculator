@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Mass Index Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="info"><h3 class="range">Range</h3> <span class="inf"><p><span class="grey">Underweight =<</span> 18.5</p><p><span class="grey">healthy =</span> 18.5-24.9</p><p><span class="grey">Overweight =</span> 25-29.9</p><p><span class="grey">Obese =</span> 30 or greater</p></span></div>
+    <div class="container">
+        <div class="form">
+        <input type="number" id="height" placeholder="Enter height in meter" required>
+        <input type="number"  id="weight" placeholder="Enter weight in kg" required>
+        <button id="btn" onclick="calc()">Calculate</button>
+        <p id="noval" class="none red">Please enter required values</p>
+        <p id="p"  class="none">Your BMI is <span id="result" class="spantext">00</span>. You are <span id="restext" class="spantext">healthy</span>.</p>
+    </div>
+    </div>
+    <span class="one"></span>
+    <span class="two"></span>
+    <script src="index.js"></script>
+
+
+</body>
+</html>
